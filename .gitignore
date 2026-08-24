@@ -1,0 +1,8 @@
+node_modules
+dist
+.DS_Store
+*.local
+*.tsbuildinfo
+
+# kept local, uploaded to the host directly
+public/resume.pdf
