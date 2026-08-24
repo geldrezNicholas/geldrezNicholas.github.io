@@ -16,7 +16,7 @@ export type Section = {
 export type Social = {
   label: string
   href: string
-  icon: 'github' | 'linkedin' | 'mail' | 'resume'
+  icon: 'github' | 'linkedin' | 'mail'
 }
 
 export const profile = {
@@ -28,7 +28,6 @@ export const socials: Social[] = [
   { label: 'GitHub', href: 'https://github.com/geldrezNicholas', icon: 'github' },
   { label: 'LinkedIn', href: 'https://linkedin.com/in/nicholasgeldrez', icon: 'linkedin' },
   { label: 'Email', href: 'mailto:geldrez.nicholas@gmail.com', icon: 'mail' },
-  { label: 'Resume', href: '/resume.pdf', icon: 'resume' },
 ]
 
 export const sections: Section[] = [

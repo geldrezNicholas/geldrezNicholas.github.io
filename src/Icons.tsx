@@ -35,13 +35,6 @@ export function Icon({ name }: Props) {
           <path d="m3 7 8.1 5.6a1.6 1.6 0 0 0 1.8 0L21 7" />
         </svg>
       )
-    case 'resume':
-      return (
-        <svg {...common}>
-          <path d="M14 2.5H7a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7.5Z" />
-          <path d="M14 2.5v5h5M8.5 13h7M8.5 17h4.5" />
-        </svg>
-      )
   }
 }
 
