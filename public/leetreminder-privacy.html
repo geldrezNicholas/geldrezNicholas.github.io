@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeetReminder Privacy Policy</title>
+    <meta name="description" content="Privacy policy for the LeetReminder Chrome extension." />
+    <style>
+      :root { color-scheme: light dark; }
+      body {
+        margin: 0 auto;
+        padding: 48px 20px 80px;
+        max-width: 680px;
+        font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        color: #1c1f26;
+        background: #ffffff;
+      }
+      @media (prefers-color-scheme: dark) {
+        body { color: #e8eaf0; background: #16181d; }
+        a { color: #7aa7ff; }
+        code { background: #24282f; }
+      }
+      h1 { font-size: 28px; margin: 0 0 4px; }
+      h2 { font-size: 18px; margin: 36px 0 10px; }
+      .updated { color: #6b7385; font-size: 14px; margin: 0 0 28px; }
+      ul { padding-left: 22px; }
+      li { margin-bottom: 6px; }
+      code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 14px;
+             padding: 1px 5px; border-radius: 4px; background: #f0f1f4; }
+      a { color: #2f6fe4; }
+      .back { display: inline-block; margin-top: 40px; font-size: 14px; }
+    </style>
+  </head>
+  <body>
+    <h1>LeetReminder Privacy Policy</h1>
+    <p class="updated">Last updated: September 20, 2026</p>
+
+    <p>
+      LeetReminder is a Chrome extension that schedules spaced-repetition reminders for
+      LeetCode and NeetCode problems. It does not collect, transmit, or sell any personal
+      information.
+    </p>
+    <p>
+      The extension is open source, so everything described below can be verified in the
+      code at
+      <a href="https://github.com/geldrezNicholas/LeetReminder">github.com/geldrezNicholas/LeetReminder</a>.
+    </p>
+
+    <h2>What the extension stores</h2>
+    <p>When you add a problem, the extension saves the following on your own device:</p>
+    <ul>
+      <li>The problem's URL slug, title, and difficulty</li>
+      <li>Which site or sites you added it from</li>
+      <li>The date you added it, its review dates, and which reviews you have completed</li>
+    </ul>
+    <p>
+      This is held in <code>chrome.storage.local</code>, which is local browser storage on
+      the machine you installed the extension on. It is not synced to a Google account and
+      it is not copied anywhere else.
+    </p>
+
+    <h2>What is not collected</h2>
+    <ul>
+      <li>No names, email addresses, or account information</li>
+      <li>No browsing history, and no record of pages you visit</li>
+      <li>No analytics, telemetry, crash reporting, or usage tracking</li>
+      <li>No cookies or advertising identifiers</li>
+      <li>No code or solutions you write</li>
+    </ul>
+
+    <h2>Where the data goes</h2>
+    <p>
+      Nowhere. The extension has no backend, makes no network requests, and contains no
+      third-party libraries or services. Nothing you save leaves your browser, so there is
+      no data for anyone to share or sell.
+    </p>
+
+    <h2>Why it asks for the permissions it does</h2>
+    <ul>
+      <li><strong>Storage</strong> holds your problem list on your device.</li>
+      <li><strong>Alarms</strong> wakes the extension periodically to work out what is due.</li>
+      <li><strong>Notifications</strong> shows the daily reminder.</li>
+      <li><strong>Active tab</strong> reads the current tab's address when you click Add, so it
+        knows which problem you mean.</li>
+      <li><strong>Scripting</strong>, together with access to leetcode.com and neetcode.io, reads
+        the problem title and difficulty from the page you are adding so the entry is labelled
+        correctly. These two sites are the only ones the extension can access.</li>
+    </ul>
+
+    <h2>Keeping or deleting your data</h2>
+    <p>
+      Delete individual problems from the extension at any time. Uninstalling the extension
+      removes everything it stored, permanently. Because nothing is kept on a server, there
+      is no backup and no way to recover a deleted list.
+    </p>
+
+    <h2>Changes</h2>
+    <p>
+      If this policy changes, the updated version will be posted on this page with a new date.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Questions about this policy can be raised as an issue on the extension's source
+      repository at
+      <a href="https://github.com/geldrezNicholas/LeetReminder/issues">github.com/geldrezNicholas/LeetReminder</a>,
+      or through the Support tab on its Chrome Web Store listing.
+    </p>
+
+    <a class="back" href="/">Back to geldreznicholas.github.io</a>
+  </body>
+</html>
