@@ -50,7 +50,7 @@ export const sections: Section[] = [
       { title: 'Incoming Software Engineer Intern at Ross Video', tag: 'Most recent'},
       { title: 'Software Engineer Intern at Nokia'},
       { title: 'Data Engineer Intern at HTG Sports Services' },
-      { title: 'Software Developer Intern at Carleton Computer Science Society' },
+      { title: 'Software Developer Volunteer at Carleton Computer Science Society' },
     ],
   },
   {
