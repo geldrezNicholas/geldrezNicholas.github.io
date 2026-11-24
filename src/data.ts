@@ -69,7 +69,10 @@ export const sections: Section[] = [
         href: 'https://deadline-9ixk.onrender.com',
       },
       {
-        name: 'More on GitHub!'
+        name: 'GitHub',
+        title: 'Click to go to my GitHub',
+        note: 'Check out my other projects.',
+        href: 'https://github.com/geldrezNicholas',
       },
     ],
   },
