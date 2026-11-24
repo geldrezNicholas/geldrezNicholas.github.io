@@ -68,6 +68,9 @@ export const sections: Section[] = [
         note: 'Turns a course syllabus PDF into calendar events.',
         href: 'https://deadline-9ixk.onrender.com',
       },
+      {
+        name: 'More on GitHub!'
+      },
     ],
   },
   {
